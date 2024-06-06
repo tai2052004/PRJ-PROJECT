@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face{
+    font-family: "Nico Moji";
+    src: url("hehe/nicomoji-plus_v0.9.ttf");
+}
+*{
+    margin: 0;
+    border:0;
+}
+
+.header{
+    background-color: #151965;
+    height: 100px;
+    display: flex;
+}
+.header__datve img{
+    width:20px;
+}
+.header__logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.header__logo p{
+    font-family: Nico Moji;
+    color: white;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+
+
+.header__button__Home{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.header__button__Login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.header__datve{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header__button{
+    display: flex;
+
+    width: 50%;
+}
+.header__button button{
+    background-color: #151965;
+
+}
+.header__button__Home button{
+    background-color: #151965;
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.header__button__Login button{
+    background-color: #151965;
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.header__datve button{
+    font-family: "Lora", serif;
+    color: white;
+    font-size: 17px;
+
+}
+
+.page__firstbanner img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.register{
+    display: flex;
+    height: 600px;
+}
+.register__form__first{
+    background-color: #19007F;
+    height: 100px;
+}
+.register__form__first h2{
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0px 5px 1px #f2f2f2;
+    position: relative;
+    top: 25%;
+}
+.register__form__input{
+    background-color: #EFEFEF;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register__form__input button{
+    height: 40px;
+    width: 100px;
+    background-color:  #12E400;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 9px;
+}
+.register__form__input input{
+    width: 80%;
+    height: 50px;
+    border-radius: 9px;
+}
+.register__form__input label{
+    position: relative;
+    right: 100px;
+}
+.register__form{
+    width: 50%;
+}
+.register__img{
+    width: 50%;
+}
+.register__img img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.header h3{
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}*/
+
+/*.header h4{
+    font-family: "Lora", serif;
+    color: white;
+    font-size: 17px;
+
+}*/
+
+/*.register h3{
+    font-family: "Lilita One", sans-serif;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    text-shadow: 0px 5px 1px #f2f2f2;
+    position: relative;
+    top: 25%;
+}*/
+
+
+
+
